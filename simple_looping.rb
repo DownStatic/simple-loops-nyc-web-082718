@@ -40,7 +40,7 @@ def until_iterator(number_of_times)
   count = 0
   until (count==number_of_times) do
     puts phrase
-    count = count + 1
+    count++
   end
 end
 
